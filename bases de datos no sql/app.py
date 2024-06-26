@@ -3,7 +3,7 @@ import boto3
 #Crear cliente para dynamodb
 dynamodb = boto3.resource('dynamodb', region_name = 'us-east-1')
 
-tabla = dynamodb.Table('tabla-juan-gomez')
+tabla = dynamodb.Table('tabla-jorge-alvarez')
 
 #Leer un elemento de la tabla
 response = tabla.get_item(Key={'id': '2'})
@@ -18,7 +18,7 @@ print(response['Items'])
 
 item = {
     "id": "3",
-    "nombre": "Juan Esteban",
+    "nombre": "Francisco Mendez",
     "edad": 35,
     "ciudad": "Medellín"
 }

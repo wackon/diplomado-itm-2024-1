@@ -4,12 +4,12 @@ dynamodb = boto3.client('dynamodb', region_name='us-east-1')
 
 #Eliminar la tabla
 response = dynamodb.delete_table(
-    TableName='tabla-juan-gomez-2'
+    TableName='tabla-jorge-alvarez-2'
 )
 
 # Crear la tabla
 # response = dynamodb.create_table(
-#     TableName='tabla-juan-gomez-2',
+#     TableName='tabla-jorge-alvarez-2',
 #     KeySchema=[
 #         {
 #             'AttributeName': 'id',
