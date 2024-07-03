@@ -1,0 +1,13 @@
+#.yaml es un archivo de configuración
+#en la documentación de kubernetes esta 
+apiVersion: v1
+kind: Pod
+metadata:
+  name: pod-jorge-alvarez
+  namespace: namespace-jorge-alvarez
+spec:
+  containers:
+  - name: httpd
+    image: httpd
+    ports:
+    - containerPort: 80
