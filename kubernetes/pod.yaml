@@ -8,6 +8,6 @@ metadata:
 spec:
   containers:
   - name: httpd
-    image: httpd
+    image: 590183924888.dkr.ecr.us-east-1.amazonaws.com/repositorio-jorge-alvarez:latest
     ports:
     - containerPort: 80
